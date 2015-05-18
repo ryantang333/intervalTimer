@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="intervalTimer.js"></script>
+		<title>Interval Timer</title>
+	</head>
+	<body>
+		<center>
+			<h1>Interval Timer</h1>
+			<table>
+				<thead>
+					<td>Hours</td>
+					<td>Minutes</td>
+					<td>Seconds</td>
+				</thead>
+				<tbody>
+					<td><select id="hours"></select></td>
+					<td><select id="minutes"></select></td>
+					<td><select id="seconds"></select></td>
+				</tbody>
+			</table>
+			<br>
+			<button id="start">Start</button>
+			<button id="clear">Clear</button>
+			<br> <br>
+			<button id="pause"disabled>Pause</button>
+			<button id="continue" disabled>Continue</button>
+			<br>
+			<div id="timeDisplay"></div>
+			<br>
+			Your Sets:
+			<br>
+			<div id="mySets"></div>
+			<br>
+			<button id="clearPortfolioDisplay">Clear Sets</button>
+			<br> <br>
+			Timers in the set:
+			<br>
+			<div id="myTimers"></div>
+			<br>
+			<button id="addTimer">Add Current Timer</button>
+			<button id="addSet">Add Set</button>
+			<button id="clearSetDisplay">Clear Timers</button>
+			<button id="startSet">Start Set</button>
+		</center>
+	</body>
+</html>

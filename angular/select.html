@@ -1,0 +1,25 @@
+<div ng-controller="SelectController">
+	<form>
+		<table>
+			<tbody>
+				<tr>
+					<td><select ng-model="hours">
+						<option ng-repeat="h in hourArray">{{h}}</option>
+					</select></td>
+					<td><select ng-model="minutes">
+						<option ng-repeat="m in minuteArray">{{m}}</option>
+					</select></td>
+					<td><select ng-model="seconds">
+						<option ng-repeat="s in secondArray">{{s}}</option>
+					</select></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<td>Hours</td>
+				<td>Minutes</td>
+				<td>Seconds</td>
+			</tfoot>
+		</table>
+		<a href="#/displayCount"><input type="button" value="Start"></a>
+	</form>
+</div>
